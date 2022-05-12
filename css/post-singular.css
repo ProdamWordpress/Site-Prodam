@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f7f7f7 !important;
+}
+
+.container {
+    font-size: 14px;
+}
+
+.single {
+    background: rgb(255, 255, 255);
+    padding: 30px 70px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #68686834;
+	margin-bottom:60px;
+}
+
+.container h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 1rem 0;
+}
+
+.container p {
+    margin: 2rem 0;
+}
+
+.is-style-stripes {
+    border: 1px solid #bdbdbd !important;
+}
+
+.is-style-stripes table tbody tr td {
+    border: 1px solid #bdbdbd !important;
+}
+
+@media only screen and (max-width:1200px) {}
+
+@media only screen and (max-width:992px) {}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:576px) {
+    .single {
+        background: #f7f7f7;
+        padding: 0;
+        margin-top: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}

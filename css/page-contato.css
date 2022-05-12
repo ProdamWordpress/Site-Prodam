@@ -1,0 +1,143 @@
+/*DataTables*/
+#table-gerencia_wrapper .bottom {
+  margin-top: 10px;
+}
+
+.contato-categoria {
+  position: relative;
+}
+
+.contato-categoria h3 {
+  position: absolute;
+  top: 2.5px;
+}
+
+.contato-categoria label {
+  margin: 1rem 0;
+  padding: 20px 0;
+}
+
+.contato-categoria th {
+  border-bottom: 2px solid #dee2e6 !important;
+}
+
+.contato-categoria table {
+  border: 1px solid #ecedef !important;
+}
+
+/* ------------------ */
+.contato {
+  font-size: 1.4rem;
+}
+
+#contato {
+  margin-top: 30px;
+}
+
+#contato::before{
+  content: " ";
+  position: absolute;
+  background-color: #002A61;
+  width: 100px;
+  height: 6px;
+}
+
+
+.contato h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.contato h3 span {
+  margin-top: 3px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.contato table {
+  border: 1px solid #ecedef;
+}
+
+.contato table thead tr {
+  background-color: #fafafa;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.contato table thead th {
+  border-top: 0px;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+}
+
+.contato table tbody td {
+  padding: 5px 10px 5px 10px; /* Ajuste para o texto nao ficar tao colado nas colunas*/
+  vertical-align: middle; /*validar*/
+}
+
+.contato table tbody tr:hover{
+  background-color: #fcfcfc !important;
+
+}
+
+.contato-categoria__presidente .table-container {
+  display: flex;
+  flex-direction: column-reverse;
+  
+}
+
+.contato-categoria__presidente table {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.contato-categoria__presidente table tbody td {
+  border-bottom: 2px solid #fafafa
+}
+.contato-categoria__presidente table tbody tr:hover{
+  background-color: #fff !important;
+
+}
+
+.contato-categoria__presidente .table__description-container {
+  margin-bottom: 1rem;
+}
+
+.contato-categoria__presidente .table__description-container .card {
+  border-radius: 0;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.contato-categoria__presidente .table__description-container .card-header{
+  background-color: #fafafa;
+  font-weight: 400;
+  padding: 5px 10px 5px 10px;
+  border-radius: 0;
+  width: 100% !important;
+  border-top: 0;
+}
+
+
+.contato-categoria__presidente .table__description-container .card-header:hover{
+  background-color: #ebebeb;
+}
+
+.contato-categoria__presidente .table__description-container button {
+  font-size: 1.4rem;
+  color: rgb(107, 107, 107);
+  padding: 0;
+  text-decoration: none;
+}
+
+
+.contato-categoria__presidente .table__description-container button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.contato-categoria__presidente .table__description-container .card-body {
+  border: 1px solid #ecedef;
+  border-top: 0;
+  padding: 15px 20px 15px 10px;
+}

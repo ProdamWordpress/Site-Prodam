@@ -1,0 +1,232 @@
+/*--------------------------------------------------------------
+# DEFAULT
+--------------------------------------------------------------*/
+
+.custom-box-default {
+    background: #fff;
+    box-shadow: 3px 3px 5px #00000015;
+}
+
+
+/*--------------------------------------------------------------
+# Style
+--------------------------------------------------------------*/
+header{
+	margin-top:0px;	
+}
+.title-head {
+    font-size: 18px;
+}
+
+.current-menu-ancestor {
+    background-color: currentColor;
+}
+
+.current_page_item {
+    background-color: currentColor;
+}
+
+.teste {
+    background-color: red;
+}
+
+nav.principal {
+    background-color: #3d3d3d !important;
+}
+
+nav.principal .navbar-collapse .widget-container div ul li:hover {
+    background-color: unset;
+}
+
+nav.principal .navbar-collapse .menu-solucoes-container ul li {
+    margin: 0 2rem;
+}
+
+nav.principal .navbar-collapse .inicio-menu ul li {
+    margin: 0;
+    background-color: #3d3d3d;
+}
+
+nav.principal .navbar-collapse .inicio-menu:hover {
+    background-color: #3d3d3d !important;
+}
+
+nav.principal .navbar-collapse .inicio-menu ul li:hover {
+    background-color: #3d3d3d !important;
+}
+
+nav.principal .navbar-collapse .hospedagem-menu {
+    border-bottom: 4px solid #0598cb;
+}
+
+nav.principal .navbar-collapse .hospedagem-menu:hover {
+    background-color: #0598cb !important;
+}
+
+nav.principal .navbar-collapse .hospedagem-menu ul li {
+    margin: 0;
+    background-color: #0598cb;
+}
+
+nav.principal .navbar-collapse .hospedagem-menu ul li:hover {
+    background-color: #0598cb !important;
+}
+
+nav.principal .navbar-collapse .hospedagem-menu.current-menu-ancestor {
+    background-color: #0598cb !important;
+}
+
+nav.principal .navbar-collapse .telecom-menu {
+    border-bottom: 4px solid #F06673;
+}
+
+nav.principal .navbar-collapse .telecom-menu:hover {
+    background-color: #F06673 !important;
+}
+
+nav.principal .navbar-collapse .telecom-menu ul li {
+    margin: 0;
+    background-color: #F06673;
+}
+
+nav.principal .navbar-collapse .telecom-menu ul li:hover {
+    background-color: #F06673 !important;
+}
+
+nav.principal .navbar-collapse .telecom-menu.current-menu-ancestor {
+    background-color: #F06673 !important;
+}
+
+nav.principal .navbar-collapse .nuvem-menu {
+    border-bottom: 4px solid #9BB33B;
+}
+
+nav.principal .navbar-collapse .nuvem-menu:hover {
+    background-color: #9BB33B !important;
+}
+
+nav.principal .navbar-collapse .nuvem-menu ul li {
+    margin: 0;
+    background-color: #9BB33B;
+}
+
+nav.principal .navbar-collapse .nuvem-menu ul li:hover {
+    background-color: #9BB33B !important;
+}
+
+nav.principal .navbar-collapse .nuvem-menu.current-menu-ancestor {
+    background-color: #9BB33B !important;
+}
+
+nav.principal .navbar-collapse .diversos-menu {
+    border-bottom: 4px solid #F88E1E;
+}
+
+nav.principal .navbar-collapse .diversos-menu:hover {
+    background-color: #F88E1E !important;
+}
+
+nav.principal .navbar-collapse .diversos-menu ul li {
+    margin: 0;
+    background-color: #F88E1E;
+}
+
+nav.principal .navbar-collapse .diversos-menu ul li:hover {
+    background-color: #F88E1E !important;
+}
+
+nav.principal .navbar-collapse .diversos-menu.current-menu-ancestor {
+    background-color: #F88E1E !important;
+}
+
+.pesquisa {
+    background-color: #3d3d3d !important;
+}
+
+@media only screen and (min-width: 1198px) {
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item .sub-menu {
+        background-color: #494949 !important;
+    }
+}
+
+@media only screen and (max-width: 1198px) {
+    .pesquisa {
+		box-shadow: none;
+        margin-top: 0 !important;
+    }
+    nav.principal .navbar-collapse .hospedagem-menu {
+        border-bottom: none;
+    }
+    nav.principal .navbar-collapse .hospedagem-menu:hover {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .hospedagem-menu ul li:hover {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .hospedagem-menu.current-menu-ancestor {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .telecom-menu {
+        border-bottom: none;
+    }
+    nav.principal .navbar-collapse .telecom-menu:hover {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .telecom-menu ul li:hover {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .telecom-menu.current-menu-ancestor {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .nuvem-menu {
+        border-bottom: none;
+    }
+    nav.principal .navbar-collapse .nuvem-menu:hover {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .nuvem-menu ul li:hover {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .nuvem-menu.current-menu-ancestor {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .diversos-menu {
+        border-bottom: none;
+    }
+    nav.principal .navbar-collapse .diversos-menu:hover {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .diversos-menu ul li:hover {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse .diversos-menu.current-menu-ancestor {
+        background-color: unset !important;
+    }
+    nav.principal .navbar-collapse ul li {
+        background-color: #3d3d3d !important;
+    }
+}
+
+
+/*--------------------------------------------------------------
+PESQUISA
+--------------------------------------------------------------*/
+
+.pesquisa {
+    box-shadow: 4px 4px 6px #00000041;
+}
+
+.inpt-pesquisa {
+    background-color: #494949!important;
+}
+
+.pesquisa-box button,
+.pesquisa-box button:focus {
+    background-color: #494949!important;
+}
+
+@media only screen and (max-width: 1198px) {
+    .pesquisa {
+		box-shadow: none;
+    }
+}

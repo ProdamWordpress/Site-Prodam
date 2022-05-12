@@ -1,0 +1,11 @@
+#participacaoSocial{
+    margin-top: 30px;
+}
+
+#participacaoSocial::before{
+    content: " ";
+    position: absolute;
+    background-color: #002A61;
+    width: 100px;
+    height: 6px;
+}

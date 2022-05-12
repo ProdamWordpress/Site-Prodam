@@ -1,0 +1,26 @@
+/* Reconhecimentos */
+.sub-title__reconhecimentos {
+  text-transform: uppercase;
+  font-size: 2.7rem;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;  
+}
+
+.reconhecimentos-table table {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.reconhecimentos-table tr {
+  border-bottom: 1px solid #dedede;
+}
+
+.reconhecimentos-table tr td:nth-child(1){
+  min-width: 250px;
+  height: 250px;
+}
+
+.reconhecimentos-table tr td:nth-child(2){
+  padding: 20px 0 20px 40px;
+}

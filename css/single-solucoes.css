@@ -1,0 +1,112 @@
+:root {
+    --main-color: #dedede;
+}
+
+.single-solucoes {
+    padding-top: 85px;
+    padding-bottom: 250px;
+    background-size: cover;
+    margin-bottom: -110px;
+    background-repeat: no-repeat;
+    background-position: center -110px;
+}
+
+.single-solucoes+footer {
+    margin: 0 !important;
+}
+
+.single-solucoes__title h1 {
+    max-width: 550px;
+    text-align: initial;
+    font-size: 17px;
+    font-weight: 500;
+    color: #808080;
+    margin: 0 0 6px 0;
+}
+
+.single-solucoes__title h2 {
+    max-width: 550px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4E4E4E;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 12px 0;
+}
+
+.single-solucoes__title p {
+    margin: 0;
+    max-width: 550px;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.beneficios {
+    margin-bottom: 50px;
+}
+
+.beneficios h3 {
+    color: var(--main-color);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 60px 0 10px 0;
+}
+
+.beneficios ul li {
+    margin: 10px 0;
+    width: 525px;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.beneficios>ul li::before {
+    color: var(--main-color);
+    content: "+";
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.pdf-download {
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--main-color);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 206px;
+}
+
+.pdf-download:hover {
+    background: var(--main-color);
+    color: #fff;
+    text-decoration: none;
+}
+
+.pdf-download img {
+    margin-right: 10px;
+    filter: invert(78%) sepia(34%) saturate(5962%) hue-rotate(343deg) brightness(97%) contrast(101%);
+}
+
+.pdf-download:hover img {
+    filter: invert(100%) sepia(0%) saturate(339%) hue-rotate(258deg) brightness(114%) contrast(100%);
+}
+
+@media only screen and (max-width:768px) {
+    .single-solucoes {
+        background: none !important;
+        background-color: #E4E6E7;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .single-solucoes__title p,
+    .beneficios ul li {
+        width: 100%;
+    }
+}

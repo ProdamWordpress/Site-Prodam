@@ -1,0 +1,206 @@
+    footer {
+        background-color: #0e3c7d;
+        padding-bottom: 0px;
+        color: #fff;
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        margin-top: 30px;
+    }
+    
+    footer ul {
+        padding-left: 0px;
+    }
+    
+    footer ul li {
+        color: #fff;
+        list-style-type: none;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+    
+    footer ul li a {
+        color: #fff;
+    }
+    
+    footer ul li a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    footer ul li a:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #rodape h2 {
+        border-left-color: #fe9d48;
+        border-left-style: solid;
+        border-left-width: 6px;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    #rodape .container .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    #rodape .sub-menu {
+        padding-left: 30px;
+    }
+    
+    #rodape .sub-menu li {
+        font-size: 1.1rem;
+    }
+    /* CONTATO */
+    
+    #rodape .contato {
+        padding-right: 20%;
+    }
+    
+    #rodape .contato li {
+        margin: 6% 0;
+    }
+    
+    #rodape .contato .logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10%;
+        align-items: baseline;
+        margin-top: 20%;
+    }
+    
+    #rodape .container .row {
+        padding: 2rem 0 2rem 0;
+    }
+    
+    #rodape .redesSociais {
+        width: 260px;
+        background-color: transparent;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 1px;
+        padding: 0px;
+    }
+    
+    #rodape .redesSociais img {
+        max-width: 86px;
+        max-height: 86px;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 1px;
+        margin: 0px !important;
+    }
+    
+    #rodape #menu-redes-sociais {
+        display: flex;
+        justify-content: center;
+        grid-gap: 0 1rem;
+    }
+    
+    #rodape .socialMediaIcons {
+        margin-top: 15px;
+        text-align: center;
+        width: 260px;
+    }
+    
+    #rodape .socialMediaIcons img {
+        max-width: 30px;
+        max-height: 30px;
+        margin-left: 4px;
+        margin-right: 4px;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+    }
+    
+    #rodape .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #fff;
+        color: #707070;
+        min-height: 4rem;
+        line-height: 2rem;
+        font-size: 1.3rem;
+        font-family: 'montserrat';
+    }
+    
+    .botao-flutuante h2 {
+        display: none;
+    }
+    
+    .botao-flutuante a {
+        cursor: pointer;
+        position: fixed;
+        color: #149ddd !important;
+        font-size: 20px;
+        right: 15px;
+        bottom: 30px;
+        z-index: 9999;
+    }
+    
+    .botao-flutuante a img {
+        max-width: 180px !important;
+        max-height: auto !important;
+    }
+    
+    @media only screen and (max-width:1200px) {}
+    
+    @media only screen and (max-width:992px) {
+        #rodape .container .row {
+            grid-template-columns: 1fr 1fr;
+        }
+        .sobre-nos {
+            display: none;
+        }
+        #rodape .logos {
+            grid-template-columns: 1fr;
+        }
+        #rodape .logoRodape {
+            margin-top: 0;
+            width: 50%;
+        }
+        #rodape .logoProdam {
+            margin-top: 0;
+            width: 50%;
+            margin-top: 3rem;
+        }
+        .botao-flutuante img {
+            max-width: 140px;
+            max-height: auto;
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        #rodape .container .row {
+            grid-template-columns: 1fr;
+        }
+        #rodape h2 {
+            border-left-color: unset;
+            border-left-style: none;
+            text-align: center;
+        }
+        #rodape .container .row .contato {
+            grid-row: 2;
+            padding-right: 0%;
+            text-align: center;
+        }
+        #rodape .container .row .redes-sociais {
+            grid-row: 1;
+            margin: 2rem auto;
+        }
+        #rodape .container .row .contato .logos {
+            margin-top: 0%;
+        }
+        #rodape .copyright {
+            padding: 1%;
+        }
+    }
+    
+    @media only screen and (max-width:576px) {}

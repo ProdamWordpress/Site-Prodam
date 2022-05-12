@@ -1,0 +1,292 @@
+/*--------------------------------------------------------------
+# DEFAULT
+--------------------------------------------------------------*/
+
+header {
+    background-color: #ffffff;
+    margin-top: -20px;
+}
+
+.custom-box-default {
+    background: #fff;
+    box-shadow: 3px 3px 5px #00000015;
+    border-radius: 4px;
+}
+
+.hide-display {
+    display: block;
+}
+
+.head-principal .container-md,
+.navbar .container-md,
+fomr.container {
+    /* max-width: 80% !important; */
+}
+
+@media only screen and (min-width: 1198px) {
+    .hide {
+        opacity: 0% !important;
+        cursor: default !important;
+        margin-top: -50px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Style
+--------------------------------------------------------------*/
+
+.head-principal .container .row {
+    padding: 10px;
+}
+
+.head-logo .logo {
+    max-height: 40px;
+    margin: 20px 0px 20px 0px;
+}
+
+.head-menu .widget_nav_menu div ul li {
+    display: inline-flex;
+}
+
+.head-menu .widget_nav_menu div ul li a {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #646464;
+    text-decoration: none;
+}
+
+.head-menu .widget_nav_menu div ul li a :hover {
+    color: #4d4d4d;
+}
+
+.navbar-principal-btn button,
+.navbar-principal-btn button:focus {
+    box-shadow: 0 0 0 0;
+    opacity: 100%;
+    outline: 0;
+    border: 0;
+    transition: 1s ease-in-out;
+}
+
+nav.principal {
+    background-color: #002A61 !important;
+    z-index: 2222;
+    min-height: 52px;
+}
+
+nav.principal.navbar {
+    padding: 0px !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+    opacity: 100%;
+    outline: 0;
+}
+
+nav.principal .navbar-collapse .widget-container div ul li a {
+    padding: 0px 12px !important;
+    height: auto;
+    text-decoration: none;
+    color: #fff !important;
+    transition: 0.2s ease-in-out;
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+nav.principal .navbar-collapse .widget-container div .menu .menu-item .sub-menu .menu-item a {
+    font-size: 14px;
+}
+
+nav.principal .navbar-collapse .widget-container div ul li:hover {
+    background-color: #07346e;
+}
+
+@media only screen and (min-width: 1198px) {
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item {
+        display: inline-flex;
+        min-height: 52px;
+        padding: 0px 0px !important;
+    }
+    
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item .sub-menu{
+        display: none;
+    }
+
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item .sub-menu .menu-item {
+        display: list-item;
+        padding: 10px 10px !important;
+        align-items: center;
+        height: auto !important;
+    }
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item .sub-menu .menu-item.menu-item-has-children{
+        background-color: #002A61 !important;
+    }
+
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item .sub-menu {
+        background-color: #0b3874 !important;
+        position: absolute;
+        margin-top: 52px;
+    }
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item:hover>.sub-menu {
+        display: inline;
+    }
+   
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item .sub-menu .menu-item .sub-menu {
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1198px) {
+    .container,
+    .container-md {
+        max-width: 90% !important;
+    }
+    .head-principal {
+        margin-top: -20px;
+    }
+    nav.principal {
+        height: auto;
+    }
+    nav.principal .navbar-collapse .widget-container div .menu {
+        margin-top: 20px;
+    }
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item {
+        display: block;
+        min-height: 35px;
+    }
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item:hover {
+        background-color: transparent;
+    }
+    #navbarTogglerDemo03 .head-menu .widget_nav_menu div .menu .menu-item {
+        display: list-item;
+    }
+}
+
+@media only screen and (max-width: 1198px) {
+    .container,
+    .container-md {
+        max-width: 90% !important;
+    }
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item {
+        display: block;
+        padding: 5px 5px 5px 25px;
+    }
+    nav.principal .navbar-collapse .widget-container div .menu .menu-item ul {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .container,
+    .container-md {
+        max-width: 95% !important;
+    }
+    .head-menu a {
+        margin: 5px;
+        font-size: 14px;
+    }
+    nav.principal .collapse .widget-container div .menu .menu-item a {
+        padding: 8px !important;
+        margin-left: -8px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+PESQUISA
+--------------------------------------------------------------*/
+
+.search-label {
+    display: none;
+}
+
+.container-pesquisa {
+    height: 50px;
+    position: absolute;
+    z-index: 99998;
+    padding-right: 0px;
+    padding-left: 0px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.pesquisa {
+    background-color: #002555 !important;
+    box-shadow: 4px 4px 6px #00000041;
+    height: 50px;
+    padding: 0px 20px !important;
+    transition: .5s ease-in-out;
+    opacity: 100%;
+}
+
+.pesquisa-box {
+    height: 100%;
+}
+
+.inpt-pesquisa {
+    width: 90%;
+    height: 100%;
+    background-color: #143D74;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.inpt-pesquisa input,
+.inpt-pesquisa input:focus {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: #fff;
+}
+
+.pesquisa-box button,
+.pesquisa-box button:focus {
+    height: 100%;
+    background-color: #204a81;
+    border: none;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 1198px) {
+    .container-pesquisa {
+        z-index: 99999;
+        overflow: visible;
+        margin-top: 67px !important;
+        box-shadow: 0;
+        top: 0;
+    }
+    .container-pesquisa .hide {
+        opacity: 100% !important;
+    }
+    .inpt-pesquisa {
+        width: 90%;
+        height: 100%;
+        background-color: transparent;
+    }
+    .pesquisa {
+        background-color: transparent !important;
+        padding: 0px;
+        box-shadow: 0 0 #000;
+        margin-top: 30px;
+    }
+    .navbar-principal-btn button {
+        display: none;
+    }
+}
+
+.navbar-toggler:focus {
+    margin-top: 15px !important;
+}
+
+.navbar-toggler.collapsed {
+    margin-top: 0px !important;
+}

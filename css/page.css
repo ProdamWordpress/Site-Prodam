@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f7f7f7 !important;
+    overflow-x: hidden;
+}
+
+.container {
+    font-size: 14px;
+}
+
+.single {
+    background: rgb(255, 255, 255);
+    padding: 50px 70px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #68686834;
+}
+
+.container h1,
+h2,
+h3 {
+    margin: 1rem 0;
+}
+
+.container p {
+    margin: 2rem 0;
+}

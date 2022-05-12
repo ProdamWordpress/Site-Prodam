@@ -1,0 +1,116 @@
+.flag-infraestrutura-azul,
+.flag-servicos-hospedagem-azul {
+    z-index: 1;
+}
+
+.flag-infraestrutura-azul:before {
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #0E3D87;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    z-index: 2;
+}
+
+.flag-servicos-hospedagem-azul:before {
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    border-left: 10px solid #164484;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    z-index: 2;
+}
+
+
+/* Menu abaixo do banner na página de soluções */
+
+.menu-servicos-hospedagem .current-menu-item {
+    background: #002a61;
+    border-bottom: 5px solid orange;
+    margin-bottom: -5px;
+}
+
+.menu-servicos-hospedagem ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-servicos-hospedagem ul li {
+    width: 200px;
+    height: 50px;
+    box-sizing: content-box;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-servicos-hospedagem ul li:hover {
+    background: #002a61;
+}
+
+.menu-servicos-hospedagem ul li a {
+    text-decoration: none;
+    padding: 0 2%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.box-beneficios {
+    min-height: 220px;
+}
+
+.boxSaibaMais {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.saibaMais {
+    color: #f58220;
+}
+
+
+/* Responsividade */
+
+@media only screen and (max-width:1200px) {
+    .menu-servicos-hospedagem ul li {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width:992px) {}
+
+@media only screen and (max-width:768px) {
+    .menu-servicos-hospedagem .current-menu-item {
+        background: unset;
+        border-bottom: 1px solid orange;
+    }
+    .menu-servicos-hospedagem ul {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .menu-servicos-hospedagem ul li {
+        margin: 1% 0;
+        padding: 1% 0;
+        height: 100%;
+        border-bottom: 1px solid;
+    }
+    .box-beneficios {
+        min-height: initial;
+    }
+}
+
+@media only screen and (max-width:576px) {}

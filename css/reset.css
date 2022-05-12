@@ -1,0 +1,245 @@
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+    padding: 5px;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a img {
+    border: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Style
+--------------------------------------------------------------*/
+
+
+/* Main CSS */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.boxBranco {
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: block;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 10px 0px #8b8b8b57;
+    border-radius: 4px;
+    text-decoration: none !important;
+    color: #4e4e4e !important;
+    font-family: 'montserrat_light';
+    outline-color: transparent;
+    min-height: 170px;
+}
+
+.boxBranco h2 {
+    margin-top: 0px;
+    font-size: 2.1rem;
+    font-family: 'montserrat';
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-left-color: #fe9d48;
+    padding-left: 10px;
+}
+
+.boxBranco p {
+    font-size: 1.5rem;
+    font-family: 'montserrat';
+    padding-left: 15px;
+    margin: 10px 0px 0px 0px !important;
+}
+
+.box-breadcrumbs {
+    background: rgb(236, 236, 236);
+    padding: 10px 70px;
+    margin-top: 20px;
+    border-radius: 4px;
+    /* box-shadow: 5px 5px 10px #68686834; */
+}
+
+#breadcrumbs {
+    background-color: transparent;
+    color: #000;
+    font-size: 1.3rem;
+    margin: 0px;
+}
+
+#breadcrumbs a {
+    color: #000;
+    font-weight: 500;
+}
+
+
+/* PAGINAÇÂO */
+.pagination .page-numbers {
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: #727272 !important;
+    margin: 10px;
+}
+.pagination .next {
+
+}
+.pagination .prev {
+
+}
+.pagination .current{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    min-width: 30px;
+    min-height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px 2px #6f6f6f66;   
+}
