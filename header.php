@@ -69,7 +69,7 @@
             
             <form method="get" class="container d-flex justify-content-center align-items-center pesquisa-box"  action="<?php echo esc_url(site_url('/')); ?>">
                 <div class=inpt-pesquisa >
-                    <label class="search-label" for="s">&empty;</label>
+                    <label class="search-label" for="s"></label>
                         <input class="s" id="s" type="search" name="s" placeholder="Digite aqui...">
                 </div>
                 <button type="submit" value="Search" alt="Buscar"> 
